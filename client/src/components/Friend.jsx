@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://8080-imamabubakar-huddle-en8k9u6d5kg.ws-eu77.gitpod.io/users/${_id}/${friendId}`,
+      `https://huddle-server.vercel.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

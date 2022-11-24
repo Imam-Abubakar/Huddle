@@ -15,7 +15,7 @@ const ProfilePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   const getUser = async () => {
-    const response = await fetch(`https://8080-imamabubakar-huddle-en8k9u6d5kg.ws-eu77.gitpod.io/users/${userId}`, {
+    const response = await fetch(`https://huddle-server.vercel.app/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

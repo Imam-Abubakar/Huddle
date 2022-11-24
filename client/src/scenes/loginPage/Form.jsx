@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://8080-imamabubakar-huddle-en8k9u6d5kg.ws-eu77.gitpod.io/auth/register",
+      "https://huddle-server.vercel.app/auth/register",
       {
         method: "POST",
         body: formData,
@@ -79,7 +79,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await fetch("https://8080-imamabubakar-huddle-en8k9u6d5kg.ws-eu77.gitpod.io/auth/login", {
+    const loggedInResponse = await fetch("https://huddle-server.vercel.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

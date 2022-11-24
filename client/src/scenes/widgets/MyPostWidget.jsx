@@ -46,7 +46,7 @@ const MyPostWidget = ({ picturePath }) => {
       formData.append("picturePath", image.name);
     }
 
-    const response = await fetch(`https://8080-imamabubakar-huddle-en8k9u6d5kg.ws-eu77.gitpod.io/posts`, {
+    const response = await fetch(`https://huddle-server.vercel.app/posts`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,

@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://8080-imamabubakar-huddle-en8k9u6d5kg.ws-eu77.gitpod.io/assets/${image}`}
+        src={`https://huddle-server.vercel.app/assets/${image}`}
       />
     </Box>
   );
