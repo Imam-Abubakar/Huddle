@@ -5,7 +5,7 @@
 Huddle is a sinimalist social media platform where users can create account, make text/image posts and make friends. The like post option is also functional.
 Dark mode functionality is also included.
 
-> The image upload function doesn't work on a serverless backend, since it's a test project implementations were not fully utilized
+> The image upload function doesn't work on a serverless backend, since it's a test project implementations were not fully utilized. Image Upload works on local server testing
 
 Live Demo: https://huddle-tan.vercel.app
 
@@ -14,6 +14,17 @@ Live Demo: https://huddle-tan.vercel.app
 - Node(Express)
 - MongoDB
 - Material UI
+
+- Redux Toolkit
+- React Router
+- Redux Persist
+- React Dropzone
+- JsonWebToken
+- Multer
+- GridFS-Storage
+- Formik
+- Yup
+
 
 ## Testing:
 In a case where you do not want to register with your email, feel free to use this login details to test the platform
