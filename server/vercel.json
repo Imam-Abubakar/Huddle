@@ -1,7 +1,6 @@
 {
     "version": 2,
     "name": "maestro-server",
-    "installCommand": "npm i --legacy-peer-deps",
     "builds": [
        { "src": "index.js", "use": "@vercel/node" }
     ],
